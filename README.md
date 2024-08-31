@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -38,3 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 =======
 # Thoth4test
 >>>>>>> bddb032213606719114863b320e9d47cdcc12845
+=======
+# Thoth4test
+Versão Thoth para testes
+>>>>>>> a8721070b8123463d641b18c930ab3930632fa12
