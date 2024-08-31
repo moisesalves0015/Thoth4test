@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ramabhadra&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: #FCFCFD;
+    padding: 20px 20px 20px 0;
+    position: fixed;
+    /* Para fixar a navbar na lateral */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius:  0 20px 20px 0;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #006A6A;
+    padding-left: 40px;
+}
+
+.nav-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.nav-item {
+    color: #1E1F24;
+    text-decoration: none;
+    padding: 15px 0;
+
+    text-align: left;
+    transition: background 0.3s ease;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+
+
+}
+
+
+
+.iconMenuLateral {
+    color: #006A6A;
+    margin-right: 10px;
+
+}
+
+
+.menu-item{
+
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+
+
+}
+
+.menu-item:nth-child(-n+4):hover{
+
+border-left:6px solid #006A6A;
+cursor:auto;
+
+}
+
+
+.NotaEmbreve {
+  color: white;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  background-color: #006A6A;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  margin-left: 5px;
+
+}
+
